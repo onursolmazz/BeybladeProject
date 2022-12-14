@@ -9,6 +9,14 @@ public class Main {
         Scanner scn = new Scanner(System.in);
 
         while(true){
+
+            String beybladeler = "Dranza \n"
+                    + "Drayga \n"
+                    + "Draciel \n"
+                    + "Dragon";
+
+            System.out.println(beybladeler);
+
             System.out.print("Hangi beyblade'i uretmek istiyorsunuz :");
             String islem = scn.nextLine() ;
             if(islem.equals("q")){
